@@ -1,0 +1,14 @@
+Frequent patterns
+1:<play><no> [0.5]
+2:<play><yes> [0.5]
+3:<umidity><high> AND  <wind><weak> [0.5]
+4:<wind><weak> AND  <umidity><high> [0.5]
+5:<umidity><high> [0.625]
+6:<wind><weak> [0.625]
+
+Emerging patterns
+1:<umidity><high> [0.625] [1.875]
+2:<play><no> [0.5] [3.0]
+3:<umidity><high> AND  <wind><weak> [0.5] [Infinity]
+4:<wind><weak> AND  <umidity><high> [0.5] [Infinity]
+
